@@ -1,0 +1,291 @@
+body{
+    background-color:#6b8cff;
+}
+.container-cubo{
+    width: 6%;
+    height: 100px;
+    margin-top: 380px;
+    margin-left: 150px;
+    background-image: url('ladrillo.jpg');
+    background-size: cover;
+    border-radius:5px 5px 0px 0px;
+    position:absolute;
+}
+.sombra1{
+    width: 100px;
+    height: 5px;
+    background-color: #000000;
+    margin-top: 480px;
+    margin-left: 150px;
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.container-cubos{
+    width: 500px;
+    height: 100px;
+    margin-top: 380px;
+    margin-left: 700px;
+    position: absolute;
+    display: flex;
+    align-content: space-between;
+}  
+.container-cubos .cubo-uno{
+    width: 100px;
+    height: 100px;
+    background-image: url('ladrillo.jpg');
+    background-size: cover;
+    border-radius:5px 0px 0px 0px;
+}
+.container-cubos .cubo-dos{
+    width: 100px;
+    height: 100px;
+    background-image: url('signo.jpg');
+    background-size: cover;
+
+}
+/*
+.container-cubos .cubo-dos i {
+	color:#fff;
+	font-size:150px;
+    transition:all 1.9s;
+}
+.container-cubos .cubo-dos i.on {
+	color:#fbff00;
+	text-shadow: 0px 0px 1000px #fffb08;
+}
+.marco{
+    margin-top: -40px;
+}*/
+.container-cubos .cubo-tres{
+    width: 100px;
+    height: 100px;
+    background-image: url('ladrillo.jpg');
+    background-size: cover;
+    border-radius: 5px;
+}
+.container-cubos .cubo-cuatro{
+    width: 100px;
+    height: 100px;
+    background-image: url('signo.jpg');
+    background-size: cover;
+}
+.container-cubos .cubo-cinco{
+    width: 100px;
+    height: 100px;    
+    background-image: url('ladrillo.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    border-radius:5px 0px 0px 0px;
+}
+.sombra{
+    width: 500px;
+    height: 5px;
+    background-color: #000000;
+    margin-top: 480px;
+    margin-left: 700px;
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+}
+.signo_{
+    width: 100px;
+    height: 100px;
+    background-image: url('signo.jpg');
+    background-size: cover;
+    margin-top: 150px; 
+    margin-left: 885px;
+    position: fixed;
+}
+/*Switch*/ /*
+.switch > input {
+	display:none;
+}
+.switch > label {
+	margin:auto;
+	display:block;
+	position:relative;
+	background:#d2d9e4;
+	width:112px;
+	height:56px;
+	border-radius: 30px;
+	border: 2px solid #cad3dc;
+	cursor: pointer;
+}
+.switch > label:before {
+	content:"";
+	position:absolute;
+	width:52px;
+	height:52px;
+	background:#fff;
+	border-radius: 50%;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+	left:0;
+	top:0;
+	transition:all 0.3s;
+}
+.switch > input:checked + label {
+	background: #20a0ff;
+}
+.switch > input:checked + label:before {
+	left:56px;
+}
+*/
+.tuberia{
+    width: 200px;
+    height: 500px;
+    margin-top: 400px; 
+    margin-left: 1350px;
+    position: fixed;
+}
+.superior{
+    width: 150px;
+    height: 350px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 25px;
+    background-color: rgb(20, 218, 53);
+    box-shadow:5px 0px 30px 15px rgba(1,1,1,0.60); 
+    border-radius: 5px;
+}
+.inferior{
+    width: 180px;
+    height: 40px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 9px;
+    background-color: rgb(20, 218, 53);
+    box-shadow:0px 0px 30px 10px rgba(0,0,0,0.75); 
+    border-radius: 5px;
+}
+.fondo{
+    width: 1700px;
+    height: 40px;
+    margin-top: 845px; 
+    left: 0px;
+    background-color: black;
+    position: absolute;
+}
+.suelo{
+    width: 1700px;
+    height: 40px;
+    margin-top: 842px; 
+    left: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.suelo div{
+    width: 100px;
+    height: 40px;
+    background-color: #a45d33;
+    border-radius: 5px 5px 0px 0px;
+}
+div .pequenos{
+    width: 50px;
+    height: 40px;
+}
+.adornos{
+    width: 500px;
+    height: 200px;
+    margin-top: 590px; 
+    left: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+}
+.adorno1 {
+    width: 500px;
+    height: 300px;
+}
+.black{
+    background-color: black;
+    width: 100px;
+    height: 60px;
+    margin-top: 720px;
+    margin-left: 595px;
+    position: fixed;
+    border-radius: 15px;
+}
+.adorno2{
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+}
+.adornos3{
+    width: 300px;
+    height: 150px;
+    margin-top: 130px;
+    margin-left: 1530px;
+    position: fixed;
+}
+.adornos4{
+    width: 1500px;
+    height: 40px;
+    margin-top: 250px;
+    left: 140px;
+    position: fixed;
+}
+.texto{
+    width: 500px;
+    height: 200px;
+    margin-top: 250px;
+    margin-left: 45px;
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.nube{
+    width: 200px;
+    height: 100px; 
+}
+.nube1{
+    width: 200px;
+    height: 200px;
+    animation: movimiento1 45s infinite;
+    margin-top: -50px;
+}
+
+@keyframes movimiento1{
+   from{
+         margin-left: 1520px;
+   }
+   to{
+            margin-left: -90%;
+   }
+}
+
+
+.nube2{
+    width: 200px;
+    height: 200px;
+    animation: movimiento2 50s infinite;
+    margin-top: -110px;
+}
+
+@keyframes movimiento2{
+   from{
+         margin-left: -90%;
+   }
+   to{
+            margin-left: 1520px;
+   }
+}
+
+.nube3{
+    width: 200px;
+    height: 200px;
+    animation: movimiento3 50s infinite;
+    margin-top: -50px;
+}
+
+@keyframes movimiento3{
+   from{
+         margin-left: 2000px;
+   }
+   to{
+            margin-left: -90%;
+   }
+}
+
