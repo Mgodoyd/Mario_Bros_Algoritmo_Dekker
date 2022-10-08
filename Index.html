@@ -7,6 +7,8 @@
     <title>Mario-Bros</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Script.js">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">-->
 
 </head>
@@ -54,6 +56,24 @@
                     <h1>RECURSO</h1>
                 </div>
             </div>
+                <div class="container-padre_">
+                    <div class="esquina-superior-izquierda"></div>
+                    <div class="esquina-superior-derecha"></div>
+                    <div class="esquina-inferior-derecha"></div>
+                    <div class="esquina-inferior-izquierda"></div>
+                </div>
+                <div class="container-padre_2">
+                    <div class="esquina-superior-izquierda"></div>
+                    <div class="esquina-superior-derecha"></div>
+                    <div class="esquina-inferior-derecha"></div>
+                    <div class="esquina-inferior-izquierda"></div>
+                </div>
+                <div class="container-padre_3">
+                    <div class="esquina-superior-izquierda"></div>
+                    <div class="esquina-superior-derecha"></div>
+                    <div class="esquina-inferior-derecha"></div>
+                    <div class="esquina-inferior-izquierda"></div>
+                </div>
         </section>
         <section>
             <div class="fondo"></div>
@@ -92,6 +112,63 @@
                 <img class="nube1" src="nube.png" alt="#">
                 <img class="nube2" src="nube.png" alt="#">
                 <img class="nube3" src="nube.png" alt="#">
+            </div>
+        </section>
+        <section id="gifprincipales">
+            <div class="container-gif">
+                <div id="personajenormal" class="personaje1">
+                    <h1 id="texto_1" class="texto1">Proceso 1</h1>
+                    <img src="mnormal.gif" alt="#">
+                </div>
+                <div id="personajenormal2" class="personaje2"><h1 class="texto2">Proceso 2</h1><img src="lnormal.gif" alt="#"></div>
+            </div>
+        </section>
+        <section id="gifsecundarios">
+            <div class="container-gif2">
+                <div id="personaje1"class="personaje1_"><img src="lderecha.gif" alt="#"></div>
+                <div id="personaje2" class="personaje2_"><img src="mderecha.gif" alt="#"></div>
+            </div>
+        </section>
+        <section id="recursoocupado" >
+            <div class="texto__"> <h1 class="recurso">Recurso Ocupado</h1></div>
+        </section>
+         <section id="errorrecurso">
+            <div  class="texto__2"><h1 class="error">Error</h1></div>
+        </section>
+        <section id="nadieva">
+            <div class="comentarioprincipal">
+            <div class="comentarios1"><img src="comentarios.png" alt="#"><h1 class="primerotu">Tu primero</h1></div>
+            <div class="comentarios2"><img src="comentarios.png" alt="#"><h1 class="primerotu2">No tu primero</h1></div>
+            </div>
+        </section>
+        <section>
+            <div class="panel">
+                <div class="diseno1"></div>
+                <div class="diseno2"></div>
+                <div class="diseno3"></div>
+                <div class="tema1">
+                    <!--Mario-->
+                        <button class="w3-btn " onclick="w3.toggleShow('#personajenormal')">H/S</button>
+                        <button class="w3-btn " onclick="w3.hide('#personaje2')">H</button>
+                        <button class="w3-btn " onclick="w3.show('#personaje2')">S</button>
+                        <!--luigui-->
+                        <button class="w3-btn2 " onclick="w3.toggleShow('#personajenormal2')">H/S</button>
+                        <button class="w3-btn2 " onclick="w3.hide('#personaje1')">H</button>
+                        <button class="w3-btn2 " onclick="w3.show('#personaje1')">S</button>
+                        <!--texto-->
+                        <button class="w3-btn3 " onclick="w3.hide('#recursoocupado')">H</button>
+                        <button class="w3-btn3 " onclick="w3.show('#recursoocupado')">S</button>
+                </div>
+                <div class="tema2">
+                    <button class="w3-btn " onclick="w3.toggleShow('#gifprincipales')">H/S</button>
+                    <button class="w3-btn2 " onclick="w3.toggleShow('#gifsecundarios')">H/S</button>
+                   <!--texto-->
+                   <button class="w3-btn3 " onclick="w3.hide('#errorrecurso')">H</button>
+                   <button class="w3-btn3 " onclick="w3.show('#errorrecurso')">S</button>
+                </div>
+                <div class="tema3">
+                    <button class="w3-btn3 " onclick="w3.toggleShow('#nadieva')">H/S</button>
+                </div>
             </div>
         </section>
     </main>
