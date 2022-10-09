@@ -354,6 +354,18 @@ div .pequenos{
     color: white;
     margin-top: 1px;
 }
+.personaje3 img{
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.texto3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 1px;
+}
 .container-gif2{
     width: 1150px;
     height: 550px;
@@ -365,11 +377,10 @@ div .pequenos{
 .personaje1_ img{
     width: 100px;
     height: 110px;
-    margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 70px;
     position: fixed;
     animation-name: personaje1;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     
 
@@ -378,25 +389,25 @@ div .pequenos{
     0%{
         margin-left: 100px;margin-top: 430px;
     }
-    25%{
+    15%{
         margin-left: 700px;margin-top: 430px;
     }
-    35%{
+    20%{
         margin-left: 700px;margin-top: 330px;
     }
-    45%{
+    25%{
         margin-left: 800px;margin-top: 340px;
     }
-    50%{
+    30%{
         margin-left: 800px;margin-top: 235px;
     }
-    60%{
+    35%{
         margin-left: 900px;margin-top: 225px;
     }
-    65%{
+    40%{
         margin-left: 900px;margin-top: 85px;
     }
-    75%{
+    45%{
         margin-left: 1020px;margin-top: 85px;
     }
     100%{
@@ -410,37 +421,78 @@ div .pequenos{
     margin-left: 70px;
     position: fixed;
     animation-name: personaje2;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
 }
 
 @keyframes personaje2{
     0%{
-        margin-left: 101px;margin-top: 430px;
+        margin-left: 100px;margin-top: 430px;
     }
-    25%{
+    15%{
         margin-left: 700px;margin-top: 430px;
     }
-    35%{
+    20%{
         margin-left: 700px;margin-top: 330px;
     }
-    45%{
+    25%{
         margin-left: 800px;margin-top: 340px;
     }
-    50%{
+    30%{
         margin-left: 800px;margin-top: 235px;
     }
-    60%{
+    35%{
         margin-left: 900px;margin-top: 225px;
     }
-    65%{
+    40%{
         margin-left: 900px;margin-top: 85px;
     }
-    75%{
+    45%{
         margin-left: 1020px;margin-top: 85px;
     }
     100%{
-        margin-left: 1021px;margin-top: 86px;
+        margin-left: 1020px;margin-top: 85px;
+    }
+}
+
+.personaje3_ img{
+    width: 150px;
+    height: 120px;
+    margin-top: 430px;
+    margin-left: 70px;
+    position: fixed;
+    animation-name: personaje3;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes personaje3{
+    0%{
+        margin-left: 100px;margin-top: 430px;
+    }
+    15%{
+        margin-left: 700px;margin-top: 430px;
+    }
+    20%{
+        margin-left: 700px;margin-top: 330px;
+    }
+    25%{
+        margin-left: 800px;margin-top: 340px;
+    }
+    30%{
+        margin-left: 800px;margin-top: 235px;
+    }
+    35%{
+        margin-left: 900px;margin-top: 225px;
+    }
+    40%{
+        margin-left: 900px;margin-top: 85px;
+    }
+    45%{
+        margin-left: 1020px;margin-top: 85px;
+    }
+    100%{
+        margin-left: 1020px;margin-top: 85px;
     }
 }
 .botones{
@@ -538,6 +590,17 @@ div .pequenos{
     box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
     margin-left: 17px;
 }
+.w3-btn4 {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 234);
+    color: white;
+    border-style: none;
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    margin-left: 17px;
+}
 .texto__{
     background-color: rgb(247, 247, 247);
     width: 100px;
@@ -584,12 +647,12 @@ div .pequenos{
 .comentarios1 img{
     width: 120px;
     height: 120px;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 130px;
 }
 .primerotu{
     color: white;
-    margin-left: 360px;
+    margin-left: 310px;
     margin-top: -85px;
     font-size: 20px;
 }
@@ -603,6 +666,20 @@ div .pequenos{
 .primerotu2{
     color: white;
     margin-left: 60px;
+    margin-top: -85px;
+    font-size: 17px;
+}
+
+.comentarios3 img{
+    width: 120px;
+    height: 120px;
+    margin-left: 170px;
+    margin-top: -80px;
+    transform: rotateY(180deg);
+}
+.primerotu3{
+    color: white;
+    margin-left: 180px;
     margin-top: -85px;
     font-size: 17px;
 }
