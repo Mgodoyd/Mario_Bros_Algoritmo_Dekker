@@ -6,7 +6,7 @@ body{
     height: 100px;
     margin-top: 380px;
     margin-left: 150px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius:5px 5px 0px 0px;
     position:absolute;
@@ -33,14 +33,14 @@ body{
 .container-cubos .cubo-uno{
     width: 100px;
     height: 100px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius:5px 0px 0px 0px;
 }
 .container-cubos .cubo-dos{
     width: 100px;
     height: 100px;
-    background-image: url('signo.jpg');
+    background-image: url('Imagenes/signo.jpg');
     background-size: cover;
 
 }
@@ -60,20 +60,20 @@ body{
 .container-cubos .cubo-tres{
     width: 100px;
     height: 100px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius: 5px;
 }
 .container-cubos .cubo-cuatro{
     width: 100px;
     height: 100px;
-    background-image: url('signo.jpg');
+    background-image: url('Imagenes/signo.jpg');
     background-size: cover;
 }
 .container-cubos .cubo-cinco{
     width: 100px;
     height: 100px;    
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius: 5px;
     border-radius:5px 0px 0px 0px;
@@ -90,7 +90,7 @@ body{
 .signo_{
     width: 100px;
     height: 100px;
-    background-image: url('signo.jpg');
+    background-image: url('Imagenes/signo.jpg');
     background-size: cover;
     margin-top: 150px; 
     margin-left: 885px;
@@ -241,7 +241,7 @@ div .pequenos{
     height: 100px;
     margin-top: 750px;
     margin-left: 1275px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius:5px 5px 0px 0px;
     position:absolute;
@@ -252,7 +252,7 @@ div .pequenos{
     height: 100px;
     margin-top: 750px;
     margin-left: 1175px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius:5px 5px 0px 0px;
     position:absolute;
@@ -263,7 +263,7 @@ div .pequenos{
     height: 100px;
     margin-top: 650px;
     margin-left: 1275px;
-    background-image: url('ladrillo.jpg');
+    background-image: url('Imagenes/ladrillo.jpg');
     background-size: cover;
     border-radius:5px 5px 0px 0px;
     position:absolute;
