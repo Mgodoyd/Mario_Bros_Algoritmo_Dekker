@@ -9,4 +9,9 @@
  js
  
 ### Final Result
-![MarioBros](./Capturas)
+![MarioBros](./Capturas/Home.PNG)
+
+
+******************
+
+![MarioBros](./Capturas/Home_.PNG)
